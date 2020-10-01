@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('https://hdwallsource.com/img/2018/8/drum-set-wallpaper-background-63227-65271-hd-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-top: 40vh;
+    background-color: rgba(128, 128, 128, 0.7);
+    width:70%;
+    border-radius: 8px;
+    
+    
+
+}
+
+.drumbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    border: 2px solid black;
+    width: 5rem;
+    border-radius: 5px;
+    transition: .3s;
+    margin: 20px;
+    cursor: pointer;
+    
+}
+
+.drumActive{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    border: 2px solid orange;
+    width: 5rem;
+    border-radius: 5px;
+    margin: 20px;
+    color:orange;
+    
+}
+
+.drumbox:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    border: 2px solid orange;
+    width: 5rem;
+    border-radius: 5px;
+    margin: 20px;
+    color:orange;
+    
+}
+
+p{
+    margin-top: 3px;
+    font-weight: 800;
+}
